@@ -6,6 +6,7 @@ import {
   GitHubIcon,
   TwitterIcon,
   ViewsIcon,
+  YoutubeIcon
 } from 'components/icons';
 import { name, about, bio, avatar } from 'lib/info';
 
@@ -52,11 +53,11 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/leerob"
+            href="https://github.com/timsamuelsen"
             className="flex items-center gap-2"
           >
             <GitHubIcon />
-            {`${starCount.toLocaleString()} stars on this repo`}
+            {`Github`}
           </a>
           <Link href="/blog" className="flex items-center">
             <ViewsIcon />
